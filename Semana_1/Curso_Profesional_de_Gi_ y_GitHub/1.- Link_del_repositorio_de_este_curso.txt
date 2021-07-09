@@ -1,0 +1,11 @@
+Este es el link del repositorio que cree en este curso:
+
+https://github.com/Civan98/CursoGitPlatzi
+
+Este es el link de la implementación de GitHub Pages
+
+https://civan98.github.io/CursoGitPlatzi/blogpost
+
+NOTA: El archivo historia opté por escribir los comandos 
+que se iban mostrando y no mi historia.
+
