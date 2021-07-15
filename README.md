@@ -1,4 +1,4 @@
- <h1 align="center"> <img width="80" height="60" src="https://tecnoideas20.com/wp-content/uploads/2020/01/accenture.png" alt="accenture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Academia Java CDMX Accenture &&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="80" src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/blogs/javalogo.jpg" alt="java"></h1>
+ <h1 align="center"> <img width="80" height="60" src="https://tecnoideas20.com/wp-content/uploads/2020/01/accenture.png" alt="accenture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Academia Java CDMX Accenture &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="80" src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/blogs/javalogo.jpg" alt="java"></h1>
 
 
 
