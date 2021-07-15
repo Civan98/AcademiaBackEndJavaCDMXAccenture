@@ -27,15 +27,43 @@
 
  Curso Profesional De Git y GitHub
  ----------------------------------
+ En este curso enseñan la instalación de Git y como desplegar un proyecto en un repositorio remoto, en el directorio encontrara el proyecto y un archivo con los comandos utilizados. 
+Enlace del reposiro creado en este curso: https://github.com/Civan98/CursoGitPlatzi
+Enlace de la implementación de GitHub Pages: https://civan98.github.io/CursoGitPlatzi/blogpost
+Los principales temas que aborda el curso son los siguientes:
 
+1.- Como usar Git como sistema de control de versiones.
+2.- Comandos básicos en Git.
+3.- Flujo de trabajo básico en Git.
+4.- Trabajando con repositorios remotos en GitHub
+5.- Flujos de trabajo profesionales (Pull Requestts, Fork, Merge)
+6.- Múltiples entornos de trabajo en Git
+7.- Comandos de Git para casos de emergencia.
 
 
  Curso De Programación Orientada a Objetos POO
  ----------------------------------------------
+ En este curso enseñan las bases del paradigma de programación orientada a objetos y su principal importancia en el mundo de la programación, se desarrolla un proyecto en cuatro lenguajes de programación Java, PHP, Python y JS. En el directorio encontrara carpetas de los respectivos proyectos en cada lenguaje.
+Los principales temas que aborda el curso son: 
+1.- Lenguajes orientados a objetos.
+2.- Diagramas de modelado.
+3.- Modularidad.
+4.- Clases, Objetos y Método Constructor.
+5.- Herencia.
+6.- Encapsulamiento.
+7.- Polimorfismo.
 
 
 Curso De Introducción a Java SE
 ----------------------------------
+En este curso enseña los fundamentos básicos de programación con Java y como este lenguaje es uno de los más usados a nivel mundial, enseña las versiones de Java que hay disponible y cuáles son sus diferencias. En el directorio encontrara los archivos .java correspondientes a los proyectos.
+Los principales temas que aborda el curso son: 
+1.- Versiones del JDK.
+2.- Trabar con variables en Java.
+3.- Aplicar condicionales en Java.
+4.- Escribir funciones en Java.
+5.- Analizar e implementar Ciclos en Java.
+
 	
  Semana 2
  =========
@@ -57,18 +85,10 @@ Curso De Introducción a Java SE
  Tecnologías
  ============
 Los ejercicios y proyectos elaborados durante la academia fueron creados con:
-* Java version: 8.0
-* Java version: 11.0
-
- 
-
-	
-## Setup
-To run this project, install it locally using npm:
-
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+* Java versión: 8.0
+* Java versión: 11.0
 ```
+
+
 
