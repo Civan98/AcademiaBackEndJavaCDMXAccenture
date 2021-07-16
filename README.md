@@ -40,6 +40,15 @@ Los principales temas que aborda el curso son los siguientes:
 📊 Múltiples entornos de trabajo en Git.  
 🔥 Comandos de Git para casos de emergencia.  
 
+> Comando para inicializar un repositorio:
+```
+git init
+```
+> Comando para hacer un commit:
+```
+git commit -m "Su mensage aquí"
+```
+
 
  Curso De Programación Orientada a Objetos POO 
  ----------------------------------------------
@@ -102,6 +111,7 @@ Los principales temas que se ven son:
 📅 Bases de datos no relacionales.  
 💹 Aplicaciones de las bases de datos en otras ramas.  
 
+<img width="80" src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/blogs/javalogo.jpg" alt="java">
      
      
  Curso De Java SE Persistencia De Datos
@@ -117,13 +127,15 @@ Los principales temas que se ven son:
  Tecnologías
  ============
 Los ejercicios y proyectos elaborados durante la academia fueron creados con:
-```
-* Java versión: 8.0
-* Java versión: 11.0
-* Python version: 3.9.6
-* JS ECMAScript 5 
 
-```
+
+| Lenguaje              | Versión                                                      |   
+| --------------------- | ------------------------------------------------------------ |   
+| Java                  | 8.0                                                          |   
+| Java                  | 11.0                                                         |   
+| Python                | 3.9.6                                                        |   
+| JS                    | ECMAScript 5                                                 |   
+ 
 
 
 
