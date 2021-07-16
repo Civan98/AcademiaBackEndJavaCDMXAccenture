@@ -28,22 +28,22 @@
  Curso Profesional De Git y GitHub
  ----------------------------------
  En este curso enseñan la instalación de Git y como desplegar un proyecto en un repositorio remoto, en el directorio encontrara el proyecto y un archivo con los comandos utilizados.   
-Enlace del reposiro creado en este curso: https://github.com/Civan98/CursoGitPlatzi  
-Enlace de la implementación de GitHub Pages: https://civan98.github.io/CursoGitPlatzi/blogpost  
+🌐 Reposiro creado en este curso: https://github.com/Civan98/CursoGitPlatzi  
+🌐 Implementación de GitHub Pages: https://civan98.github.io/CursoGitPlatzi/blogpost  
 Los principales temas que aborda el curso son los siguientes:  
 
 1.- Como usar Git como sistema de control de versiones.  
 2.- Comandos básicos en Git.  
 3.- Flujo de trabajo básico en Git.  
 4.- Trabajando con repositorios remotos en GitHub.  
-5.- Flujos de trabajo profesionales (Pull Requestts, Fork, Merge).
+5.- Flujos de trabajo profesionales (Pull Requestts, Fork, Merge).  
 6.- Múltiples entornos de trabajo en Git.  
 7.- Comandos de Git para casos de emergencia.  
 
 
  Curso De Programación Orientada a Objetos POO
  ----------------------------------------------
- En este curso enseñan las bases del paradigma de programación orientada a objetos y su principal importancia en el mundo de la programación, se desarrolla un proyecto en cuatro lenguajes de programación Java, PHP, Python y JS. En el directorio encontrara carpetas de los respectivos proyectos en cada lenguaje.  
+ En este curso enseñan las bases del paradigma de programación orientada a objetos y su principal importancia en el mundo de la programación, se desarrolla un proyecto en cuatro lenguajes de programación Java, PHP, Python y JS.   
 Los principales temas que aborda el curso son:   
 1.- Lenguajes orientados a objetos.  
 2.- Diagramas de modelado.  
@@ -56,7 +56,7 @@ Los principales temas que aborda el curso son:
 
 Curso De Introducción a Java SE
 ----------------------------------
-En este curso enseña los fundamentos básicos de programación con Java y como este lenguaje es uno de los más usados a nivel mundial, enseña las versiones de Java que hay disponible y cuáles son sus diferencias. En el directorio encontrara los archivos .java correspondientes a los proyectos.
+En este curso enseña los fundamentos básicos de programación con Java y como este lenguaje es uno de los más usados a nivel mundial, enseña las versiones de Java que hay disponible y cuáles son sus diferencias. 
 Los principales temas que aborda el curso son:   
 1.- Versiones del JDK.  
 2.- Trabar con variables en Java.  
@@ -70,22 +70,58 @@ Los principales temas que aborda el curso son:
  
  Curso De Java SE Orientada a Objetos
  ------------------------------------
+ En el curso enseña a profundidad como Java es un lenguaje característico y un fuerte representante del paradigma orientado a objetos.  
+Los principales temas que se ven son:   
+1.- Definir Clases y sus componentes.  
+2.- Sobrecarga y constructores.   
+3,- Clases anidadas.  
+4.- Polimorfismo.  
+5.- Abstracción.    
+
  
  Curso Avanzado De Java SE
  --------------------------
+ En este curso se habla más a fondo de la utilidad de las clases abstractas y cuál es su principal diferencia con las interfaces en Java.   
+Los principales temas que se ven son:   
+Clases abstractas  
+JavaDocs  
+Clases anidadas  
+Interfaces avanzadas  
+Colecciones  
+Manejo de errores  
+
      
  Curso De Fundamentos De Bases De Datos
  ------------------------------------
+ En este curso se ve desde cómo realizar un diagrama entidad relación, para un base de datos, hasta como crear una base de datos no relacional con Firestone.   
+Los principales temas que se ven son:   
+Entidades, atributos y relaciones.  
+RDBMS (Sistema de gestión de bases de datos relacionales).    
+Sentencias DDL (Lenguaje de definición de datos).    
+Sentencias DML (Lenguaje de Modificación de Datos).    
+Bases de datos no relacionales.  
+Aplicaciones de las bases de datos en otras ramas.  
+
      
      
  Curso De Java SE Persistencia De Datos
  -----------------------------------------
+ En este curso enseña como conectar java con una base de datos relacional como lo es MySQL y también como mandar a traer datos de un API a través de HTTP,
+ Los principales temas que se ven son:   
+Realizar operaciones CRUD y generar conexión.  
+Métodos HTTP.  
+Persistencia en API rest.  
+
+ 
+ 
  
  
  Tecnologías
  ============
 Los ejercicios y proyectos elaborados durante la academia fueron creados con:
 ```
+agregar python
+php y la version del connector 
 * Java versión: 8.0
 * Java versión: 11.0
 ```
