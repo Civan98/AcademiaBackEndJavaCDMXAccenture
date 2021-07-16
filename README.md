@@ -131,7 +131,7 @@ Los principales temas que se ven son:
  Curso De Java SE Persistencia De Datos
  -----------------------------------------
  En este curso enseña como conectar Java con una base de datos relacional como lo es MySQL y también como mandar a traer datos de un API a través de HTTP, también nos enseña como crear un repositorio en GitLab.  
-🌐 Repositorio creado en este curso: https://gitlab.com/Civan98/mensajes_app/-/tree/master 
+🌐 Repositorio creado en este curso: https://gitlab.com/Civan98/mensajes_app/-/tree/master   
  Los principales temas que se ven son:     
 🖥 Realizar operaciones CRUD y generar conexión.    
 🌐 Métodos HTTP.    
