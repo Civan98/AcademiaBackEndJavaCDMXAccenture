@@ -1,4 +1,4 @@
- <h1 align="center"> <img width="80" height="60" src="https://tecnoideas20.com/wp-content/uploads/2020/01/accenture.png" alt="accenture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Academia Java CDMX Accenture &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="80" src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/blogs/javalogo.jpg" alt="java"></h1>
+ <h1 align="center"> <img width="80" height="60" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626404767/ReppositorioAcademia/accenture_dxnpq4.png" alt="accenture">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Academia Java CDMX Accenture &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img width="80" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626404767/ReppositorioAcademia/javalogo_jdouh4.jpg" alt="java"></h1>
 
 
 
@@ -60,8 +60,10 @@ Los principales temas que aborda el curso son:
 👨‍💻 Clases, Objetos y Método Constructor.  
 👴 Herencia.  
 📦 Encapsulamiento.  
-🚩 Polimorfismo.  
+🚩 Polimorfismo. 
 
+> Creación de una clase
+<p align="center"><img width="500" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626401360/ReppositorioAcademia/JavaCode_gnpusv.png" alt="java"></p>
 
  Curso De Introducción a Java SE 
 ----------------------------------
@@ -72,6 +74,9 @@ Los principales temas que aborda el curso son:
 👨‍💻 Aplicar condicionales en Java.  
 👨‍💻 Escribir funciones en Java.  
 👨‍💻 Analizar e implementar Ciclos en Java.  
+
+> Switch case en Java
+<p align="center"><img width="500" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626401595/ReppositorioAcademia/javaCode2_nmwbtg.png" alt="java"></p>
 
 	
  Semana 2
@@ -87,6 +92,9 @@ Los principales temas que se ven son:
 🚩 Polimorfismo.  
 🚩 Abstracción.    
 
+> Clase AppointmentNurse
+<p align="center"><img width="500" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626403245/ReppositorioAcademia/JavaCode3_de7unh.png" alt="java"></p>
+
  
  Curso Avanzado De Java SE
  --------------------------
@@ -98,6 +106,10 @@ Los principales temas que se ven son:
 ✔ Interfaces avanzadas  
 📦 Colecciones  
 ❌ Manejo de errores  
+
+> Clase Book
+<p align="center"><img width="600" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626403674/ReppositorioAcademia/JavaCode4_tcxflz.png" alt="java"></p>
+
 
      
  Curso De Fundamentos De Bases De Datos
@@ -111,16 +123,23 @@ Los principales temas que se ven son:
 📅 Bases de datos no relacionales.  
 💹 Aplicaciones de las bases de datos en otras ramas.  
 
-<img width="80" src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/blogs/javalogo.jpg" alt="java">
-     
-     
+> Diagrama EER
+<p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626403971/ReppositorioAcademia/BD_zriitu.png" alt="java"></p>
+
+
+ 
  Curso De Java SE Persistencia De Datos
  -----------------------------------------
- En este curso enseña como conectar java con una base de datos relacional como lo es MySQL y también como mandar a traer datos de un API a través de HTTP,
- Los principales temas que se ven son:   
-🖥 Realizar operaciones CRUD y generar conexión.  
-🌐 Métodos HTTP.  
-🌐 Persistencia en API rest.  
+ En este curso enseña como conectar Java con una base de datos relacional como lo es MySQL y también como mandar a traer datos de un API a través de HTTP, también nos enseña como crear un repositorio en GitLab.  
+🌐 Repositorio creado en este curso: https://gitlab.com/Civan98/mensajes_app/-/tree/master 
+ Los principales temas que se ven son:     
+🖥 Realizar operaciones CRUD y generar conexión.    
+🌐 Métodos HTTP.    
+🌐 Persistencia en API rest.    
+
+> Diagrama EER
+<p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626404464/ReppositorioAcademia/Conexion_gkh5j1.png" alt="java"></p>
+
 
  
  
