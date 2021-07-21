@@ -2,8 +2,8 @@ package util;
 
 public class Agedp {
 
-    /*Se tinene que crear un constructor vacio, que es el que llama
-    * la suvclase Kinder en su unico constructor
+    /*Se tiene que crear un constructor vacio, que es el que llama
+    * la suvclase Kinder en su único constructor
     * */
 
     Agedp(){  }
