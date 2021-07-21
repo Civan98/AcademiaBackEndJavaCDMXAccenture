@@ -9,4 +9,9 @@ public class Kinder extends Agedp{
 
        super();
    }
+    
+   // Debe llevar un metodo main para que el programa compile
+    public static void main(String[] args) {
+        
+    }
 }
