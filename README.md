@@ -16,6 +16,7 @@
      * [Curso Avanzado De Java SE](#Curso-Avanzado-De-Java-SE)
      * [Curso De Fundamentos De Bases De Datos](#Curso-De-Fundamentos-De-Bases-De-Datos)
      * [Curso De Java SE Persistencia De Datos](#Curso-De-Java-SE-Persistencia-De-Datos)
+  * [Prácticas extras](#Prácticas-extras)
   * [Tecnologías](#Tecnologías)
 <!--te-->
 
@@ -140,8 +141,9 @@ Los principales temas que se ven son:
 > Diagrama EER
 <p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626404464/ReppositorioAcademia/Conexion_gkh5j1.png" alt="java"></p>
 
-
- 
+Prácticas extras
+ =========
+ En esta carpeta se alamacenan las practicas correspondientes a las que dejan los asesores, extras a las practicas que se realizan en los cursos de Platzi.
  
  Tecnologías
  ============
