@@ -13,9 +13,11 @@ public class Student {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return id == student.id;
+        if (o instanceof Student){
+            Student s = (Student) o;
+            return this.id == s.id;
+        }
+        return false;
     }
 
     @Override
