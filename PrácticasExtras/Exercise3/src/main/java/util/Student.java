@@ -9,7 +9,7 @@ public class Student {
         this.id = id;
     }
 
-    //se debe sobrescribir el metodo equal indicando cual es el atributo a comparar
+    //se debe sobrescribir el método equal indicando cual es el atributo a comparar
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
