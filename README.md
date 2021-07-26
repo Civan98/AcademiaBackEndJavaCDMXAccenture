@@ -143,7 +143,7 @@ Los principales temas que se ven son:
 
 Prácticas extras
  =========
- En esta carpeta se alamacenan las practicas correspondientes a las que dejan los asesores, extras a las practicas que se realizan en los cursos de Platzi.
+ En esta carpeta se almacenan las practicas y ejercicios correspondientes a las que dejan los asesores, extras a las practicas que se realizan en los cursos de Platzi.
  
  Tecnologías
  ============
