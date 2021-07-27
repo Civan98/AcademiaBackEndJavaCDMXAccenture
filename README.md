@@ -19,6 +19,7 @@
    * [Semana 3](#semana-3)
      * [Curso Básico de Testing en Java](#Curso-Básico-De-Testing-En-Java)
      * [Curso de Programación Funcional con Java SE](#Curso-De-Programación-Funcional-Con-Java-SE)
+     * [Curso de Java Spring](#Curso de Java Spring)
   * [Prácticas extras](#Prácticas-extras)
   * [Tecnologías](#Tecnologías)
 <!--te-->
@@ -131,6 +132,20 @@ Los principales temas que se ven son:
 <p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626403971/ReppositorioAcademia/BD_zriitu.png" alt="java"></p>
 
 
+ 
+ Curso De Java SE Persistencia De Datos
+ -----------------------------------------
+ En este curso enseña como conectar Java con una base de datos relacional como lo es MySQL y también como mandar a traer datos de un API a través de HTTP, también nos enseña como crear un repositorio en GitLab.  
+🌐 Repositorio creado en este curso: https://gitlab.com/Civan98/mensajes_app/-/tree/master   
+ Los principales temas que se ven son:     
+🖥 Realizar operaciones CRUD y generar conexión.    
+🌐 Métodos HTTP.    
+🌐 Persistencia en API rest.    
+
+> Diagrama EER
+<p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626404464/ReppositorioAcademia/Conexion_gkh5j1.png" alt="java"></p>
+
+
 Semana 3
 =========
 
@@ -144,26 +159,23 @@ Los principales temas que se ven son:
 
 Curso de Programación Funcional con Java SE
 ---------------------------------------------
-En este curso enseñan como es que Java un lenguaje que es un digno representante de la programación orientado a objetos, tambien puede ser utilizado para ser orientado a programación funcional.
+En este curso enseñan como es que Java un lenguaje que es un digno representante de la programación orientada a objetos, tambien puede ser utilizado para ser orientado a programación funcional.
 Los principales temas que se ven son: 
 👨‍💻 Funciones Lambda.  
 🔥 Funciones de orden mayor.  
-👨‍ 💼Inmutabilidad.  
+👨‍Inmutabilidad.  
 ♨ Functional Programming en Java.  
 
 
- 
- Curso De Java SE Persistencia De Datos
- -----------------------------------------
- En este curso enseña como conectar Java con una base de datos relacional como lo es MySQL y también como mandar a traer datos de un API a través de HTTP, también nos enseña como crear un repositorio en GitLab.  
-🌐 Repositorio creado en este curso: https://gitlab.com/Civan98/mensajes_app/-/tree/master   
- Los principales temas que se ven son:     
-🖥 Realizar operaciones CRUD y generar conexión.    
-🌐 Métodos HTTP.    
-🌐 Persistencia en API rest.    
+Curso de Java Spring
+----------------------
+En este curso se enseña a como crear una API desde cero utilizando Spring, enseñan desde como se componen las capas de acceso de un proyecto hasta como desplegar la API en Heroku.
+Los principales temas que se ven son: 
+📋 Spring Data.  
+📑 Implementación de anotaciones de Spring.  
+📦 MapStruct.  
+👌 Spring Security.
 
-> Diagrama EER
-<p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626404464/ReppositorioAcademia/Conexion_gkh5j1.png" alt="java"></p>
 
 Prácticas extras
  =========
