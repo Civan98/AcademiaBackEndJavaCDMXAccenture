@@ -19,7 +19,7 @@
    * [Semana 3](#semana-3)
      * [Curso Básico de Testing en Java](#Curso-Básico-De-Testing-En-Java)
      * [Curso de Programación Funcional con Java SE](#Curso-De-Programación-Funcional-Con-Java-SE)
-     * [Curso de Java Spring](#Curso de Java Spring)
+     * [Curso de Java Spring](#Curso-de-Java-Spring)
   * [Prácticas extras](#Prácticas-extras)
   * [Tecnologías](#Tecnologías)
 <!--te-->
