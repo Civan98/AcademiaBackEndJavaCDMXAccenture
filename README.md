@@ -16,6 +16,8 @@
      * [Curso Avanzado De Java SE](#Curso-Avanzado-De-Java-SE)
      * [Curso De Fundamentos De Bases De Datos](#Curso-De-Fundamentos-De-Bases-De-Datos)
      * [Curso De Java SE Persistencia De Datos](#Curso-De-Java-SE-Persistencia-De-Datos)
+   * [Semana 3](#semana-3)
+     * [Curso Básico de Testing en Java](#Curso-Básico-de-Testing-en-Java)
   * [Prácticas extras](#Prácticas-extras)
   * [Tecnologías](#Tecnologías)
 <!--te-->
@@ -126,6 +128,17 @@ Los principales temas que se ven son:
 
 > Diagrama EER
 <p align="center"><img width="700" height="500" src="https://res.cloudinary.com/ds4mzfzaf/image/upload/v1626403971/ReppositorioAcademia/BD_zriitu.png" alt="java"></p>
+
+
+Semana 3
+=========
+
+Curso Básico de Testing en Java
+-----------------------------------
+En este curso se enseñan nuevas metodologías de desarrollar código en Java y como podemos tener la seguridad de que nuestro código funciona y es mantenible.
+Los principales temas que se ven son:   
+✔ Tipos y veneficios de los test.  
+⁉ Que es Test-driven development (TDD).  
 
 
  
