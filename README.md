@@ -156,6 +156,26 @@ Los principales temas que se ven son:
 ✔ Tipos y veneficios de los test.  
 ⁉ Que es Test-driven development (TDD).  
 
+> Código de Test para validar un retorno de un método:
+```
+ @Test
+    public void repeat_string_once() {
+        Assert.assertEquals("hola", StringUtil.repeat("hola", 1));
+    }
+
+    @Test
+    public void repeat_string_multiple_times() {
+        Assert.assertEquals("holaholahola", StringUtil.repeat("hola", 3));
+    }
+
+    @Test
+    public void repeat_string_zero_times() {
+        Assert.assertEquals("", StringUtil.repeat("hola", 0));
+    }
+
+```
+
+
 
 Curso de Programación Funcional con Java SE
 ---------------------------------------------
@@ -164,7 +184,13 @@ Los principales temas que se ven son:
 👨‍💻 Funciones Lambda.  
 🔥 Funciones de orden mayor.  
 👨‍Inmutabilidad.  
-♨ Functional Programming en Java.  
+♨ Functional Programming en Java.    
+> Lamda en Java funcional:
+```
+(parametros)->{cuerpo-lambda}
+```
+
+
 
 
 Curso de Java Spring
