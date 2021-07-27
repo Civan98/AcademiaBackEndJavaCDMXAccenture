@@ -169,10 +169,10 @@ Los principales temas que se ven son:
 
 Curso de Java Spring
 ----------------------
-En este curso se enseña a como crear una API desde cero utilizando Spring, enseñan desde como se componen las capas de acceso de un proyecto hasta como desplegar la API en Heroku.
-Los principales temas que se ven son: 
-📋 Spring Data.  
-📑 Implementación de anotaciones de Spring.  
+En este curso se enseña a como crear una API desde cero utilizando Spring, enseñan desde como se componen las capas de acceso de un proyecto hasta como desplegar la API en Heroku.  
+Los principales temas que se ven son:   
+📋 Spring Data.    
+📑 Implementación de anotaciones de Spring.    
 📦 MapStruct.  
 👌 Spring Security.
 
