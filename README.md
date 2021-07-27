@@ -17,7 +17,8 @@
      * [Curso De Fundamentos De Bases De Datos](#Curso-De-Fundamentos-De-Bases-De-Datos)
      * [Curso De Java SE Persistencia De Datos](#Curso-De-Java-SE-Persistencia-De-Datos)
    * [Semana 3](#semana-3)
-     * [Curso Básico de Testing en Java](#Curso-Básico-de-Testing-en-Java)
+     * [Curso Básico de Testing en Java](#Curso-Básico-De-Testing-En-Java)
+     * [Curso de Programación Funcional con Java SE](#Curso-De-Programación-Funcional-Con-Java-SE)
   * [Prácticas extras](#Prácticas-extras)
   * [Tecnologías](#Tecnologías)
 <!--te-->
@@ -139,6 +140,16 @@ En este curso se enseñan nuevas metodologías de desarrollar código en Java y 
 Los principales temas que se ven son:   
 ✔ Tipos y veneficios de los test.  
 ⁉ Que es Test-driven development (TDD).  
+
+
+Curso de Programación Funcional con Java SE
+---------------------------------------------
+En este curso enseñan como es que Java un lenguaje que es un digno representante de la programación orientado a objetos, tambien puede ser utilizado para ser orientado a programación funcional.
+Los principales temas que se ven son: 
+👨‍💻 Funciones Lambda.  
+🔥 Funciones de orden mayor.  
+👨‍ 💼Inmutabilidad.  
+♨ Functional Programming en Java.  
 
 
  
