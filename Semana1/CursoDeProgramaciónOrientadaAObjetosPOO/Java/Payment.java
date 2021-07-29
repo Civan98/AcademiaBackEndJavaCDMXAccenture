@@ -1,5 +1,5 @@
 package Java;
 
-public class Payment {
+public class Payment { 
     Integer id;
 }
