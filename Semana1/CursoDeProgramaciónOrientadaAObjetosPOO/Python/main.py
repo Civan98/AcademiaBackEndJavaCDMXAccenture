@@ -6,7 +6,7 @@ if __name__ == "__main__":
     car.license = "EWT456"
     car.driver = "Lucy Contreras"
     print(vars(car))
-
+ 
     car2 = Car()
     car2.license = "RRT987"
     car2.driver = "Raul Castañeda"
