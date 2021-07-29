@@ -6,7 +6,7 @@ public class Casting {
 
         double monthlyDogs = 30.0/12.0;
         System.out.println(monthlyDogs);
-
+ 
         //ESIMACIÓN
         int estimatedMonthlyDogs = (int) monthlyDogs;
         System.out.println(estimatedMonthlyDogs);
