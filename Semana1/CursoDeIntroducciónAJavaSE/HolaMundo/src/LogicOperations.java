@@ -7,7 +7,7 @@ public class LogicOperations {
         System.out.println("a es igual a b? -> " + (a == b));
         System.out.println("a es diferente a b? -> " + (a != b));
 
-        //Operadores Relacionales
+        //Operadores Relacionales 
         System.out.println("a es mayor a b? -> " + (a > b));
         System.out.println("a es menor a b? -> " + (a < b));
         System.out.println("a es mayor o igual a b? -> " + (a >= b));
