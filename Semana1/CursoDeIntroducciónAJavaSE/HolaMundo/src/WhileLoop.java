@@ -17,5 +17,5 @@ public class WhileLoop {
     public static boolean turnOnOffLight(){
         isTurnOnLight = (isTurnOnLight)?false:true;
         return isTurnOnLight;
-    }
+    } 
 }
