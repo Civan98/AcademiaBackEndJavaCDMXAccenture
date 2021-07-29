@@ -1,6 +1,6 @@
 package Java;
 
-class Main {
+class Main { 
     public static void main(String[] args) {
        // System.out.println("Hola Mundo");
         UberX uberX = new UberX("WEQ123", new Account("Raul Castañeda", "AWE987"), "Nissan", "Versa");
