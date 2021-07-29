@@ -1,6 +1,6 @@
 public class Variables {
     public static void main(String[] args) {
-        // Declarar la variable speed de tipo int (números enteros)
+        // Declarar la variable speed de tipo int (números enteros) 
         int spped;
 
         // Actualizar el contenido de la variable speed:
