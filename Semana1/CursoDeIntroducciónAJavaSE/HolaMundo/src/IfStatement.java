@@ -6,7 +6,7 @@ public class IfStatement {
         int fileSended = 3;
 
         if (isBluetoothEnabled) {
-            //Send file
+            //Send file 
             fileSended++;
             System.out.println("Archivo enviado");
 //            int i = 0;
