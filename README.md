@@ -205,7 +205,12 @@ Los principales temas que se ven son:
 
 Prácticas extras
  =========
- En esta carpeta se almacenan las practicas y ejercicios correspondientes a las que dejan los asesores, extras a las practicas que se realizan en los cursos de Platzi.
+ En esta carpeta se almacenan las practicas y ejercicios correspondientes a las que dejan los asesores, extras a las practicas que se realizan en los cursos de Platzi.  
+ Algunos temas que abordan son los siguientes:  
+ Contructores, palabras reservadas this, super.  
+ Operadores de Asignación Compuestos.  
+ Operadores de incremento y decremento.  
+ Método equals.  
  
  Tecnologías
  ============
