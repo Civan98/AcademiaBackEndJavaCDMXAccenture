@@ -1,0 +1,236 @@
+
+//PARA CREAR UNA BD
+CREATE SCHEMA `platziblog` ;
+
+//PARA CREAR UNA TABLA
+CREATE TABLE `people` (
+  `person_id` int NOT NULL AUTO_INCREMENT,
+  `last_name` varchar(255) DEFAULT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`person_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+//PARA ELIMINAR UNA TABLA
+DROP TABLE people;
+
+
+//PARA SELECCIONAR UNA TABLA DE UNA BD
+SELECT * FROM platziblog.people;
+
+//PARA USAR UNA BD
+USE `platziblog`;
+
+//PARA CREAR UNA VISTA O REMPLAZARLA 
+CREATE  OR REPLACE VIEW `v_platzi_people` AS
+SELECT * FROM platziblogpeople;
+
+//PARA CREAR UNA VISTA PERO ES LA SENTENCIA QUE PONE WORKBENCH
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost` 
+    SQL SECURITY DEFINER
+VIEW `platzi_people` AS
+    SELECT 
+        `people`.`person_id` AS `person_id`,
+        `people`.`last_name` AS `last_name`,
+        `people`.`first_name` AS `first_name`,
+        `people`.`address` AS `address`,
+        `people`.`city` AS `city`
+    FROM
+        `people`
+        
+//PARA ALTERAR UNA TABLA (SE AGREGO UN CAMPO NUEVO)
+ALTER TABLE `platziblog`.`people` 
+ADD COLUMN `data_of_birth` DATETIME NULL AFTER `city`;
+
+//PARA ALTERAR UNA TABLA(CAMBIO DE TIPO DE DATO)
+ALTER TABLE `platziblog`.`people` 
+CHANGE COLUMN `data_of_birth` `data_of_birth` VARCHAR(30) NULL DEFAULT NULL ;
+
+//PARA ALTERAR UNA TABLA (BORRAR UNA COLUMNA)
+ALTER TABLE `platziblog`.`people` 
+DROP COLUMN `data_of_birth`;
+
+//PARA INSERTAR DATOS EN UNA TABLA
+INSERT INTO people (last_name, first_name, address, city)
+VALUES ('Hernández', 'Laura', 'Calle 21', 'Monterrey');
+
+
+//ACTUALIZAR DATOS DE UNA TABLA (SOLO 1)
+UPDATE people
+SET last_name = 'Chávez', city= 'Mérida'
+WHERE person_id = 1;
+
+UPDATE people(TODOS LOS QUE COINCIDAN)
+SET first_name = 'Juan'
+WHERE city = 'Mérida';
+
+**PELIGROSO**
+UPDATE people
+SET first_name = 'Juan';
+
+//PARA BORRAR UN REGISTRO
+DELETE FROM people 
+WHERE person_id = 1;
+
+**MUY PELIGROSA**
+DELETE FROM people;
+
+//PARA SELECCIONAR CAMPOS
+SELECT fist_name, last_name FROM people;
+
+//LEFT JOIN (TODOS LOS USUAIOS TENGAN O NO POSTS)
+SELECT *
+FROM usuarios
+left join posts ON usuario_id = posts.usuario_id;
+
+//LEFT JOIN(TODOS LOS USUARIOS QUE NO TENGAN UN POST)
+SELECT	*
+FROM	usuarios 
+	LEFT JOIN posts on usuarios.id = posts.usuario_id
+WHERE	posts.usuario_id IS NULL;
+
+//RIGTH JOIN (TODOS LOS POSTS TENGAN O NO USUARIO)
+SELECT *
+FROM usuarios
+RIGTH join posts ON usuario_id = posts.usuario_id;
+
+//RIGTH JOIN(TODOS LOS POST QUE NO TENGAN UN USUARIO)
+SELECT	*
+FROM	usuarios 
+	RIGTH JOIN posts on usuarios.id = posts.usuario_id
+WHERE	posts.usuario_id IS NULL;
+
+//PARA TRAER LA INTERSECCIÓN DE AMBAS TABLAS
+
+SELECT	*
+FROM	usuarios 
+	INNER JOIN posts on usuarios.id = posts.usuario_id;
+
+//PARA HACER UN FULL JOIN
+SELECT	*
+FROM		usuarios 
+	LEFT JOIN posts   ON usuarios.id = posts.usuario_id
+UNION 
+SELECT	*
+FROM		usuarios 
+	RIGHT JOIN posts ON usuarios.id = posts.usuario_id;
+
+
+//PARA UNIR TODO EL UNIVERSO MENOS LA INTERSECCIÓN
+SELECT	*
+FROM	usuarios 
+	LEFT JOIN posts on usuarios.id = posts.usuario_id
+WHERE	posts.usuario_id IS NULL
+UNION
+SELECT	*
+FROM	usuarios 
+	RIGHT JOIN posts on usuarios.id = posts.usuario_id
+WHERE	posts.usuario_id IS NULL;
+
+//PARA FILTRAR USANDO LIKE
+SELECT	*
+FROM		posts
+WHERE	titulo LIKE '%escandalo%';
+
+
+//PARA FILTRAR FECHAS
+SELECT	*
+FROM		posts
+WHERE	fecha_publicacion > '2025-01-01';
+
+SELECT	*
+FROM		posts
+WHERE	fecha_publicacion BETWEEN '2023-01-01' AND '2025-12-31';
+
+// SE UTILIZA YEAR
+SELECT	*
+FROM		posts
+WHERE	YEAR(fecha_publicacion) BETWEEN '2023' AND '2024';
+
+
+//PARA FILTRAR CAMPOS NULL O NOT NULL
+SELECT	*
+FROM		posts
+WHERE	usuario_id IS NOT NULL;
+
+SELECT	*
+FROM		posts
+WHERE	usuario_id IS NULL;
+
+// PARA UNIR DOS O MÁS SENTENCIAS EN EL WHERE SE USA UN [AND]
+
+//PARA CONTAR ELEMENTOS
+SELECT count(*)
+FROM posts;
+
+//PARA AGRUPAR ELEMENTOS Y CONTARLOS
+SELECT	estatus, COUNT(*) AS post_number
+FROM		posts
+GROUP BY estatus;
+
+SELECT	YEAR(fecha_publicacion) AS post_year, COUNT(*) AS post_number
+FROM		posts
+GROUP BY post_year;
+
+//PARA ORDENAR POR UN CAMPO
+SELECT	*
+FROM		posts
+ORDER BY fecha_publicacion ASC;
+
+SELECT	*
+FROM		posts
+ORDER BY fecha_publicacion DESC;
+
+SELECT	*
+FROM		posts
+ORDER BY titulo ASC;
+
+SELECT	*
+FROM		posts
+ORDER BY titulo DESC;
+
+
+//PARA ESPECIFICAR UN LIMITE AL ORDENAR
+SELECT	*
+FROM		posts
+ORDER BY usuario_id ASC
+LIMIT 5;
+
+//USO DE HAVING(FORMA QUE DA ERROR PORQUE WHERE NO CONOCE post_quantity)
+SELECT	MONTHNAME(fecha_publicacion) AS post_month, estatus, COUNT(*) AS post_quantity
+FROM		posts
+WHERE post_quantity > 1
+GROUP BY estatus, post_month
+ORDER BY post_month;
+
+//USO DE HAVING(FORMA CORRECTA)
+
+SELECT	MONTHNAME(fecha_publicacion) AS post_month, estatus, COUNT(*) AS post_quantity
+FROM		posts
+GROUP BY estatus, post_month
+HAVING post_quantity > 1
+ORDER BY post_month;
+
+//SUBQUIERYES ANIDADOS
+SELECT new_table_projection.date, COUNT(*) AS posts_count
+FROM (
+    SELECT DATE(MIN(fecha_publicacion)) AS date, YEAR(fecha_publicacion) AS post_year
+    FROM posts
+    GROUP BY post_year
+) AS new_table_projection
+GROUP BY new_table_projection.date 
+ORDER BY new_table_projection.date;
+
+
+
+
+
+
+
+
+
+
+
