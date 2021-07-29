@@ -7,7 +7,7 @@ public class MathematicOperations {
         System.out.println(Math.ceil(x));
 
         //Devuelve un entero hacia abajo
-        System.out.println(Math.floor(x));
+        System.out.println(Math.floor(x)); 
 
         //Devuelve un número elevado a otro
         System.out.println(Math.pow(x,y));
