@@ -3,7 +3,7 @@ public class NamingJava {
         int celphone = 33337777;
         int celPhone = 55553333;
         System.out.println(celphone);
-        System.out.println(celPhone);
+        System.out.println(celPhone); 
 
         String $countryName = "Spain";
         String _backgroundColor = "Green";
