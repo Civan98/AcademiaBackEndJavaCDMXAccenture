@@ -9,7 +9,7 @@ public class DoWhile {
                 System.out.println("Selecciona el número de la opción deseada");
                 System.out.println("1. Movies");
                 System.out.println("2. Series");
-                System.out.println("0. Salir");
+                System.out.println("0. Salir"); 
 
                 Scanner sc = new Scanner(System.in);
                 response = Integer.valueOf(sc.nextLine());
