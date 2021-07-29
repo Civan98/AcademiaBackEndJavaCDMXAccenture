@@ -14,7 +14,6 @@ public class ArithmeticDemo {
         System.out.println(result);
 
 
-
         //result = result * 2; // result is now 4
         result *= 2;
         System.out.println(result);
