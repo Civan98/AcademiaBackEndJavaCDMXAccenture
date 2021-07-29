@@ -4,7 +4,7 @@ public class UpdatingVariable {
         int salary = 1000;
         salary = salary + 200;
         System.out.println(salary); // 1200
-
+ 
         salary += 300;
         System.out.println(salary); // 1500
 
