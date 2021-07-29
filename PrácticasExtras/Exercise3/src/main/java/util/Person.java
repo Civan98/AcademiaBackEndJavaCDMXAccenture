@@ -1,4 +1,4 @@
 package util;
 
-public class Person {
+public class Person { 
 }
