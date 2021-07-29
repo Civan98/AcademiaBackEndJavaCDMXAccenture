@@ -11,7 +11,7 @@ public class Student {
 
     //se debe sobrescribir el método equal indicando cual es el atributo a comparar
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { 
         if (this == o) return true;
         if (o instanceof Student){
             Student s = (Student) o;
