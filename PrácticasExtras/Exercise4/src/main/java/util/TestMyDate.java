@@ -9,7 +9,6 @@ public class TestMyDate {
         MyDate m3 = null;
 
         if(m1==m2) {
-
             System.out.println("m1==m2");
 
         }else {
