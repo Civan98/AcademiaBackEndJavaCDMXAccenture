@@ -7,7 +7,7 @@ public class Incr {
         Integer x = 7;
         int y = 2;
 
-        x *= x;
+        x *= x; 
         y *= y;
         y *= y;
         x -= y;
