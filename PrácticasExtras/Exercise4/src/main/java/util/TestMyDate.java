@@ -28,7 +28,7 @@ public class TestMyDate {
 
 // Compare if m3 is equals to m1 or m2
 
-        if(m3 == m2 || m3 ==m2) {
+        if( m2.equals(m3) || m1.equals(m2) {
 
             System.out.println("m3 is equal to m1 or m2");
 
