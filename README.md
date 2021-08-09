@@ -211,7 +211,8 @@ Prácticas extras
  ➕❌ Operadores de Asignación Compuestos.  
  ➕➕ Operadores de incremento y decremento.  
  ⁉ Método equals.  
-💹Control de flujo y Excepciones
+ 💹 Control de flujo y Excepciones
+ 📋 Strings
  
  Tecnologías
  ============
