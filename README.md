@@ -200,7 +200,7 @@ Los principales temas que se ven son:
 📋 Spring Data.    
 📑 Implementación de anotaciones de Spring.    
 📦 MapStruct.  
-👌 Spring Security.
+👌 Spring Security.  
 
 
 Prácticas extras
@@ -212,7 +212,9 @@ Prácticas extras
  ➕➕ Operadores de incremento y decremento.  
  ⁉ Método equals.  
  💹 Control de flujo y Excepciones.  
- 📋 Strings
+ 📋 Strings.  
+ 👨‍💼 Genéricos.  
+ 📦 Colecciones.  
  
  Tecnologías
  ============
